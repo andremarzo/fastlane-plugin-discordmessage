@@ -18,11 +18,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  # Don't add a dependency to fastlane or fastlane_re
-  # since this would cause a circular dependency
-
-  # spec.add_dependency 'your-dependency', '~> 1.0.0'
-  
   spec.add_dependency('discordrb', '~> 3.3')
   spec.add_development_dependency('pry', '~> 0.13.1')
   spec.add_development_dependency('bundler', '~> 2.1.4')
